@@ -1,0 +1,140 @@
+* {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  box-sizing: border-box;
+}
+
+body, html {
+  padding: 3px 3px 3px 3px;
+
+  font-family: sans-serif;
+  font-size: 14pt;
+  text-align: right;
+
+  background-color: #EB6E6E;
+}
+
+div{
+  text-align: center;
+  margin: auto;
+}
+
+p{
+  font-size: 9pt;
+  text-align: justify;
+  text-indent: 10px;
+  padding-top: 5px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.cabecalho {
+  width: 100%;
+
+  text-align: center;
+  color: white;
+
+  border: solid #BF1616;
+  border-radius: 9px;
+
+  background-color: #AF0505;
+
+  margin-bottom: 5px;
+}
+
+.painel{
+  width: 80%;
+  border: solid #BF1616;
+
+  margin-bottom: 35px;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+
+  background-color: white;
+
+  text-align: center;
+}
+
+.text {
+  font-size: 12px;
+  width: 100%;
+  padding: 6px 14px;
+  margin: 5px 0;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.buttom{
+  background-color: #EB6E6E;
+  border: solid #AF0505;
+  color: #AF0505;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12pt;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.buttom-focus:hover{
+  background-color: #AF0505;
+  color: #FFF;
+}
+
+.div-table{
+  background-color: #F9AEAE;
+  overflow-x: auto;
+}
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #DDD;
+  padding: 8px;
+  font-size: 10pt;
+}
+
+#customers tr:nth-child(even){background-color: #FD6E6E;}
+
+#customers tr:hover {background-color: #DDD;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #E50000;
+  color: white;
+  font-size: 12pt;
+}
+
+/* Celular */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  /* Computador */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}

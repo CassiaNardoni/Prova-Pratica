@@ -1,0 +1,17 @@
+CREATE TABLE cliente(
+  id int NOT NULL AUTO_INCREMENT,
+  nome varchar(100) NOT NULL,
+  apelido varchar(100),
+  telefone int NOT NULL,
+  email varchar(100) NOT NULL UNIQUE,
+  CONSTRAINT pk_Cliente PRIMARY KEY(id)
+);
+
+INSERT INTO cliente (`nome`, `apelido`, `telefone`, `email`) VALUES ('Cassia', 'Nardoni', 043999999999, 'cassiauenpsi@hotmail.com');
+INSERT INTO cliente (`nome`, `apelido`, `telefone`, `email`) VALUES ('Joao', 'Scaleao', 014996330828, 'j.scaleao@hotmail.com');
+INSERT INTO cliente (`nome`, `apelido`, `telefone`, `email`) VALUES ('Angela', 'Pao', 014998083335, 'a@gmail.com');
+INSERT INTO cliente (`nome`, `apelido`, `telefone`, `email`) VALUES ('Aryane', 'Macarrao', 043999999999, 'b@gmail.com');
+INSERT INTO cliente (`nome`, `apelido`, `telefone`, `email`) VALUES ('Amanda', 'Feijao', 043999999999, 'c@gmail.com');
+INSERT INTO cliente (`nome`, `apelido`, `telefone`, `email`) VALUES ('Karina', 'Bife', 043999999999, 'd@gmail.com');
+INSERT INTO cliente (`nome`, `apelido`, `telefone`, `email`) VALUES ('Camila', 'Tomate', 043999999999, 'e@gmail.com');
+INSERT INTO cliente (`nome`, `apelido`, `telefone`, `email`) VALUES ('Adenilson', 'Banana', 014997220828, 'f@gmail.com');
